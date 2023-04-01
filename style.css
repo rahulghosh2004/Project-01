@@ -1,0 +1,148 @@
+*{
+    margin-top: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #c8c0c0;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo img{
+    height: 100px;
+    width: 150px;
+    border-radius: 100px;
+}
+
+li .header-anchor{
+    text-decoration: none;
+    color: #000000;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: background-color 1s, text-decoration 1s;
+}
+
+li .header-anchor:hover{
+    background-color: #ffffff;
+    text-decoration: underline;
+}
+
+.first-ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.search-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.search-bar input{
+    height: 30px;
+    width: 250px;
+    border-radius: 5px;
+    border: 2px solid #ffffff;
+}
+
+.search-button{
+    height: 30px;
+    width: 70px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: #0d832b;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    transition: background-color .5s, color .5s;
+}
+
+.search-button:hover{
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.hero-section{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hero-left-section h2 span{
+    color: #0d832b;
+    font-size: 50px;
+}
+
+.hero-left-section p{
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.hero-left-section p span{
+    color: #0d832b;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.chat-button{
+    margin-left: 100px;
+    margin-top: 10px;
+    height: 30px;
+    width: 150px;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-weight: bold;
+    background-color: #0d832b;
+    color: white;
+    transition: background-color .5s, color .5s;
+}
+
+.chat-button:hover{
+    background-color: white;
+    color: black;
+}
+
+.footer-section{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer-left-section{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.sec-ul{
+    list-style: none;
+}
+
+.footer-right-section .sec-ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.footer-anchor{
+    font-size: 25px;
+    color: black;
+    transition: color 1s;
+}
+
+.footer-anchor:hover{
+    color: blue;
+}
